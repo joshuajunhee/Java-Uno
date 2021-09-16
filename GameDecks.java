@@ -1,21 +1,17 @@
-/**
- * Joshua Kim
- * AP CS A Final Project
- * 05/02/21
- * 
- * Description: This class holds the deck, discard pile and the methods used alongside them. It plays a huge part in
- *      the game and has many functions that are vital to this game.
- * 
- * Difficulties: I initially created the instance variable deck as an array instead of an ArrayList because I 
- *      thought I could easily filter through using the inDeck instance variable of the class Card. I was so 
- *      wrong. Although it could be done it would make things more complicated for me. I changed it to ArrayList
- *      because using that I could give the cards out and it wouldn't be in the ArrayList meaning there
- *      would be less trouble when drawing cards because it won't choose a card I don't want it to since it won't
- *      even be accessible.
- *      
- * What I Learned: I learned through trial and error that there are situations where ArrayLists are just superior to 
- *      regular arrays and when to use them.
- *      
+/*
+
+Description: This class holds the deck, discard pile and the methods used alongside them. It plays a huge part in
+the game and has many functions that are vital to this game.
+
+Difficulties: I initially created the instance variable deck as an array instead of an ArrayList because I
+thought I could easily filter through using the inDeck instance variable of the class Card. I was so
+wrong. Although it could be done it would make things more complicated for me. I changed it to ArrayList
+because using that I could give the cards out and it wouldn't be in the ArrayList meaning there
+would be less trouble when drawing cards because it won't choose a card I don't want it to since it won't
+even be accessible.
+
+What I Learned: I learned through trial and error that there are situations where ArrayLists are just superior to
+regular arrays and when to use them.
  */
 import java.util.*;
 public class GameDecks

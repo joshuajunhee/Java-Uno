@@ -1,17 +1,13 @@
 
-/**
- * Joshua Kim
- * AP CS A Final Project
- * 05/02/21
- * 
- * Description: This class contains the hand for the players as well as its methods.
- * 
- * Difficulties: Initially I had a Player class as well that had an instance variable of a hand but I realized after a while
- *              that it wasn't necessary and that I only needed this class to manage the hand while the player would be
- *              created and controlled in the TextUno class.
- * 
- * What I Learned: creating different methods based on the needs at the time during developer testing.
- */import java.util.*;
+/* Description: This class contains the hand for the players as well as its methods.
+
+Difficulties: Initially I had a Player class as well that had an instance variable of a hand but I realized after a while
+that it wasn't necessary and that I only needed this class to manage the hand while the player would be
+created and controlled in the TextUno class.
+What I Learned: creating different methods based on the needs at the time during developer testing.
+*/
+
+import java.util.*;
 public class PlayerHand
 {
     private ArrayList<Card> hand;

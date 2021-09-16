@@ -1,15 +1,11 @@
-/**
- * Joshua Kim
- * AP CS A Final Project
- * 05/02/21
- * 
- * Description: This class has the methods for the Card object which is the basis for the game itself.
- * 
- * Difficulty: I originally had another instance variable called inDeck, which was a boolean variable that indicates whether or
- *              not it was in the deck. I had this in because I initially I made the deck an array instead of ArrayList
- *              
- * What I Learned: Some pieces of code become unnecessary after altering other pieces of codes.
- */
+/*
+Description: This class has the methods for the Card object which is the basis for the game itself.
+
+Difficulty: I originally had another instance variable called inDeck, which was a boolean variable that indicates whether or
+not it was in the deck. I had this in because I initially I made the deck an array instead of ArrayList
+
+What I Learned: Some pieces of code become unnecessary after altering other pieces of codes.
+*/
 public class Card
 {
     private String color;
@@ -40,9 +36,6 @@ public class Card
     
     public String toString()
     {
-        return color+" "+symbol;
+        return color+" "+ symbol;
     }
 }
-/*
- * No Output
- */
