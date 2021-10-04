@@ -1,2 +1,2 @@
 # uno
-Simple java implementation of the Uno card game.
+Simple text-based user vs. bot uno game written in java. 
